@@ -1,6 +1,6 @@
 # @ras-sh/typescript-config
 
-Shared typescript configuration for [ras.sh](https://ras.sh) projects.
+Shared TypeScript configuration for [ras.sh](https://ras.sh) projects.
 
 ## Installation
 
