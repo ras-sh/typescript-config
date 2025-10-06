@@ -26,7 +26,7 @@ For TanStack Start applications with file-based routing and server functions:
     }
   },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", ".output", ".vinxi"]
+  "exclude": ["node_modules", "dist"]
 }
 ```
 
