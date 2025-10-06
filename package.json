@@ -1,6 +1,6 @@
 {
   "name": "@ras-sh/typescript-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "Shared typescript configuration for ras.sh projects.",
   "keywords": [
