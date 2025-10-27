@@ -29,7 +29,15 @@
     "react-library.json",
     "tanstack-start.json"
   ],
+  "scripts": {
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:publish": "changeset publish"
+  },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.7"
   }
 }
