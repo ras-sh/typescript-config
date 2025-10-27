@@ -4,8 +4,15 @@ on:
   push:
     branches:
       - main
+  repository_dispatch:
+    types: [release]
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+permissions:
+  contents: write
+  id-token: write
+  pull-requests: write
 
 jobs:
   release:
